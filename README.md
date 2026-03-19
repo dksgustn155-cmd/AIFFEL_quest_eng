@@ -119,7 +119,7 @@ AIFFEL_quest_eng
 │   ├── NLP01
 │   │   ├── README.md
 │   │   └── notebook.ipynb
-│   ├── NLP02 
+│   ├── NLP02
 │   │   ├── README.md
 │   │   └── notebook.ipynb
 │   ├── NLP03
