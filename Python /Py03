@@ -1,0 +1,83 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOkVmLYvyQc3ALr0+LfcAfI"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "while True:\n",
+        "    while True:\n",
+        "        try:\n",
+        "            num1 = int(input(\"첫 번째 정수: \"))\n",
+        "            break\n",
+        "        except ValueError:\n",
+        "            print(\"잘못된 입력입니다 정수만 입력해주세요.\")\n",
+        "    while True:\n",
+        "        try:\n",
+        "            num2 = int(input(\"두번째 정수: \"))\n",
+        "            break\n",
+        "        except ValueError:\n",
+        "            print(\"잘못된 정수.\")\n",
+        "    calc = input(\"연산자(+, -, *, /, **): \")\n",
+        "    try:\n",
+        "        if calc == \"+\":\n",
+        "            result = num1 + num2\n",
+        "        elif calc == \"-\":\n",
+        "            result = num1 - num2\n",
+        "        elif calc == \"*\":\n",
+        "            result = num1 * num2\n",
+        "        elif calc == \"/\":\n",
+        "            result = num1 / num2\n",
+        "        elif calc == \"**\":\n",
+        "            result = math.pow(num1, num2)\n",
+        "        else:\n",
+        "            raise ValueError(\"지원하지 않는 연산자.\")\n",
+        "        print(f\"결과: {result}\")\n",
+        "    except ZeroDivisionError:\n",
+        "        print(\"0으로 나눌 수 없음.\")\n",
+        "    except ValueError as e:\n",
+        "        print(e)\n",
+        "    again = input(\"계속 계산할거야? (네/아니요): \").lower()\n",
+        "    if again != '네':\n",
+        "        print(\"종료.\")\n",
+        "        break"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "k9SKTiIozmSr",
+        "outputId": "2571ce7c-00b7-4d3b-8f0f-da80b9e1c016"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "첫 번째 정수: 355\n",
+            "두번째 정수: 3355\n",
+            "무슨 연산자를 쓸래 (+, -, *, /, **): -\n",
+            "결과: -3000\n",
+            "계속 계산할거야? (네/아니요): 아니요\n",
+            "종료.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
