@@ -1,5 +1,5 @@
 # AIFFEL Campus Online Code Peer Review Templete
-- 코더 : 안수현
+- 코더 : 안현수
 - 리뷰어 : 김효찬
 
 
