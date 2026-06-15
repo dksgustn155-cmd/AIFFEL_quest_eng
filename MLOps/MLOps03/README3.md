@@ -16,7 +16,7 @@
 
 ## 5. 체크포인트 1
 
-![Test2](image3/CP1.png)
+![Test2](image3/cp1.png)
 
 ## 6. 체크포인트 2
 
@@ -24,12 +24,12 @@
 
 ## 5. 체크포인트 3
 
-![Test2](image3/CP3.png)
+![Test2](image3/cp3.png)
 
 ## 5. 체크포인트 4
 
-![Test2](image3/CP4.png)
+![Test2](image3/cp4.png)
 
 ## 5. 체크포인트 5
 
-![Test2](image3/CP5.png)
+![Test2](image3/cp5.png)
