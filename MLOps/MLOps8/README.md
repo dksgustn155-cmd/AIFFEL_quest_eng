@@ -12,8 +12,33 @@
 - 모델 크기가 비교적 작아 CPU 환경에서도 실행 가능
 - Hugging Face에서 제공하여 FastAPI와 쉽게 연동 가능
 
-3. swagger 시연
+3. swagger 시연 및 streamlit
 
-- [swagger](image/test1.png)
+## swagger ui 테스트 성공
+ ![swagger](image/test1.png)
 
+## 처음 실행화면
+
+ ![streamlit](image/test2.png)
+
+## 번역1
+
+ ![streamlit](image/test3.png)
+
+## 번역2 여기서 이부분은 고유명사라 제 이름은 잘 인식하지않았습니다.
+
+ ![streamlit](image/test4.png)
+
+## 3. 개선
+
+ ![streamlit](image/test5.png)
+
+- 고유명사 전처리를 해준뒤 개선이 되었습니다.
+
+## 4. 다시테스트 다른문장
+
+ ![finish](image/test6.png)
+
+ 회고는 ui 개선 및 디자인 개선 그리고 이제 다른언어들을 추가하여 모델적용시키고 학습시켜서 구글번역기와 비슷한 기능을 하게 만들면 좋겠습니다.
+ 그리고 파파고에 있는 사진번역기능까진 나중에 이미지 인식 학습을 통하여서 되지않을까 생각하고있습니다.
 
